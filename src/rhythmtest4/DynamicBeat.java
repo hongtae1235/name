@@ -109,6 +109,10 @@ public class DynamicBeat extends JFrame{
 		g.drawImage(Background, 0, 0, null);
 		paintComponents(g);
 		this.repaint();
+<<<<<<< HEAD
+=======
+		//테스트
+>>>>>>> cd3dde4988800afac04bf6237ba03231700ddef0
 	}
 
 }
