@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Insta-Style Album</title>
+    <link rel="stylesheet" href="asd.css">
+</head>
+<body>
+<header>
+    📸 2218070 ab반 홍태민 앨범 📸
+</header>
+
+<div class="album-controls">
+    <button onclick="switchGroup('group1')">고양이 사진첩</button>
+    <button onclick="switchGroup('group2')">헬스 루틴 사진첩</button>
+</div>
+
+<div id="gallery" class="gallery"></div>
+<div class="pagination" id="pagination"></div>
+
+<div class="modal" id="modal" onclick="closeModal(event)">
+    <button class="modal-btn left" onclick="event.stopPropagation(); showPrevImage()">&#8592;</button>
+    <img id="modalImg" src="" alt="확대 이미지">
+    <button class="modal-btn right" onclick="event.stopPropagation(); showNextImage()">&#8594;</button>
+</div>
+
+<div class="bottom-gif">
+    <img src="unnamed.gif" alt="귀여운 움짤">
+</div>
+
+<script src="asd.js"></script>
+</body>
+</html>
